@@ -13,7 +13,6 @@ console.log("dzialam");
     newEntry.find('div#headingOne').attr('id','headingFour').find('a').prop('href','#collapseFour').text('Collasible #4').addClass('collapsed');
     newEntry.find('div#collapseOne').attr('id','collapseFour').removeClass('in')
 
-    console.log("hello");
 
 });
 
